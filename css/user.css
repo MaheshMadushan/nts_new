@@ -1,0 +1,244 @@
+* {
+	margin:0;
+	text-decoration: none;
+	font-family: 'Work Sans', sans-serif;
+	overflow: auto;
+}
+.clearfix{ overflow: auto; }
+
+header {
+	/*background: #008080;*/
+	overflow: auto;
+	padding: 8px;
+}
+.logger{
+	float: right;
+}
+.header {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header h1{
+	padding: 30px 0px 5px 350px;
+}
+
+.add {
+	
+	float: right;
+	padding: 16px;
+	
+}
+.add a{
+	/*background-color: #bdb3ff;*/
+    /*color: white;*/
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.add a:hover{
+    /*color: white;*/
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    /*background-color: #29b9ad;*/
+}
+
+.distribute {
+	
+	padding-bottom: 16px;padding-top: 16px;float:left;
+}
+.distribute a{
+	background-color: #bdb3ff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.distribute a:hover{
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #29b9ad;
+}
+.distribute2 {
+	margin-top: 6px;
+	padding-bottom: 16px;padding-top: 16px;float:right;
+}
+.distribute2 a{
+	background-color: #bdb3ff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.distribute2 a:hover{
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #29b9ad;
+}
+header .top {
+	width: 50px;
+	font-size: 19px;
+	float: left;
+	padding-top: 3px;
+}
+header .top {
+	color:black;
+}
+header .top:hover {
+	color:white;
+}
+.icon { 
+	padding-right: 4px;
+	float: left;
+}
+
+h1 {
+	padding: 60px 200px 10px 5px;
+	text-align: left;
+}
+div.search form input {
+	width:60%;
+	height: 25px;
+	margin:10px 0px 10px 5px;
+}
+table.masterlist {
+	width: 100%;
+	border-collapse: separate;
+	border-color: black;
+	border-left: 1px solid #aaa;
+}
+
+table.masterlist th {
+	background-color: #f3cd17;
+	text-align: left;
+}
+
+table.masterlist th, table.masterlist td {
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+}
+
+
+
+form.userform{
+	margin: 20px 0px 25px 100px;
+}
+
+
+fieldset {
+	margin-left: 100px;
+	margin-right: 160px;
+	margin-bottom: 0px;
+}
+
+form.userform label{
+	width: 30%;
+	float: left;
+	font-size: 17px;
+	padding: 4px;
+}
+
+form.userform input {
+	width: 50%;
+	height: 20px;
+	padding: 4px;
+	border-radius: 5px;
+}
+
+form.userform p{
+	padding: 20px;
+}
+@media screen and (max-width: 322px){
+	.distribute {
+		margin-top: 20px;
+		padding-left: 28%;
+		margin-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	.distribute2{
+		margin-top: 20px;
+		padding-left: 28%;
+		margin-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+}
+@media screen and (min-width: 325px){
+
+	.distribute {
+		/* margin-top: 20px; */
+		padding-left: 1%;
+		padding-right: 4%;
+		padding-top: 20px;
+	}
+	.distribute2{
+		/* margin-top: 20px; */
+		
+		margin-bottom: 20px;
+		padding-top: 5%;
+    padding-right: 2%;
+	}
+	#notify{
+		padding-top: 10%;
+	}
+
+}
+@media screen and (min-width: 768px){
+	.distribute {
+		padding: 16px;
+		}
+	.distribute2 {
+			padding: 16px;
+			margin-top: 1px;
+			
+		
+	
+}
+}
+
+div.column {
+	position: static;
+	background: #d4242400;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	bottom: 0;
+}
+
+div.column h3 {
+	padding: 15px 0px 0px 15px;
+	font-size: 22px;
+	font-family: sans-serif;
+	color: white;
+	z-index: 5;
+	font-weight: 800;
+	color: black;
+}
+
+div.column ul {
+	list-style: none;
+	font-size: 16px;
+	font-weight: 800;
+	color: black;
+}
+
+div.column ul li {
+	padding-bottom: 10px;
+}
+
+div.icon1 {
+	float: left;
+	margin-left: 15px;
+}
+
+footer {
+	margin-left: 80px;
+	margin-right: 8px;
+	transition: margin-left 1s;
+}

@@ -1,0 +1,90 @@
+
+* {
+	font-family: 'Work Sans', sans-serif;
+}
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+	/* 	height: 100%; */
+	width: 100%;
+	box-sizing: border-box;
+}.logger{
+	text-align: right;
+	padding-right: 5px;
+}
+.header {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header h1 {
+  padding-top: 25px;
+  text-align: center;
+}
+main {
+	padding: 5%;
+}
+main h1{
+	margin: 10px 0px 0px 10px;
+	text-align: left;
+}
+
+/*main h2{
+	margin: 20px 10px 10px 10px;
+	text-align: left;
+}*/
+
+main .back{
+	text-align: right;
+}
+main h1 span a{
+	float: right;font-size: 17px;padding-right: 5px;
+}
+
+div.column{
+	position: relative;
+	background: #3a3a3a;
+	padding-left: 10px;
+}
+div.column h3{
+	font-size: 22px;
+	font-family: sans-serif;
+	color: white;
+	padding: 2px 0px 0px 10px;
+}
+
+div.column ul{
+	list-style: none;
+	font-size: 16px;
+	color: white;
+}
+div.column ul li{
+	padding-bottom: 8px;
+}
+
+div.icon1{
+	float: left;
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+	#backtodashboardlink {
+    	display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#year {
+    	text-align: center;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#year {
+    	margin: 30px 10px 20px 10px;
+		text-align: left;
+	}
+}
