@@ -55,7 +55,7 @@
         <div class="slideshow-container" style="padding-top:16%;background:#ffffcc;">
             <br>
             <center>
-                <h3>SERVE TO BE PREFECT. PERFECT TO BE SERVE</h3>
+                <h3 style="font-size: 1.8rem;">SERVE TO BE PREFECT. PERFECT TO BE SERVE</h3>
             </center>
             <div class="mySlides fade">
                 <div class="numbertext">1 / 2</div>
