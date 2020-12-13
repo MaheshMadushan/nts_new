@@ -103,7 +103,7 @@ table.masterlist th, table.masterlist td {
 
 @media only screen and (max-width: 900px) {
     table.masterlist {
-        width: 100%;
+        width: 80%;
         font-size: 1.908vh;
     }
 }
