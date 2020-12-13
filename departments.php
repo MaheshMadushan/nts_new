@@ -8,10 +8,11 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/student.css">
-    <link rel="stylesheet" href="./style/style-header.css">
-    <link rel="stylesheet" href="./css/student-profile.css">
-    <link rel="stylesheet" href="./css/front-style.css">
+    <!-- <link rel="stylesheet" href="./css/student.css"> -->
+    <!-- <link rel="stylesheet" href="./style/style-header.css"> -->
+    <!-- <link rel="stylesheet" href="./css/student-profile.css"> -->
+    <link rel="stylesheet" href="css/frontPage.css">
+    <link rel="stylesheet" href="css/frontpage-responsive.css">
     <link rel="stylesheet" type="text/css" href="css/department.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
@@ -34,9 +35,8 @@
     } ?>
     <section id="header">
         <div class="header container" style="background-color:yellow;">
-            <div class="logo" style="float:left;width: 420px;
-    height: 211px;padding-left:20px;">
-                <img src="./img/web/ntslogopng.png" alt="Logo" style="width:45%;">
+            <div class="logo">
+                <img src="./img/web/ntslogopng.png" alt="Logo">
             </div>
             <div class="nav-bar">
 
@@ -57,7 +57,7 @@
                         <li><a style="font-size: 20px;" href="index.php" data-after="Home"
                                 onclick="topFunction()"><b>Home</b></a></li>
                         <li><a style="font-size: 20px;" href="index.php#about" data-after="About"><b>About</b></a></li>
-                        <li><a style="font-size: 20px;" href="" data-after="Departments"><b>Departments</b></a></li>
+                        <li><a style="font-size: 20px;" href="#" data-after="Departments"><b>Departments</b></a></li>
                         <li><a style="font-size: 20px;" href="staff_members.php" data-after="Staff Members"><b>Staff
                                     Members</b></a></li>
                         <li><a style="font-size: 20px;" href="gallery.php" data-after="Gallery"><b>Gallery</b></a></li>

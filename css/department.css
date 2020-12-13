@@ -8,10 +8,10 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-family: 'Montserrat', sans-serif;
   /* text-align: center; */
-  /* position: sticky; */
+  position: sticky;
 }
 
 .logger {
@@ -222,10 +222,10 @@ ul li{
   /* padding-left: 75px; */
   /* padding-right: 50px; */
   /* padding: 20px; */
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 30px;
-  font-weight: bold;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  /* padding-right: 30px; */
+  /* font-weight: bold; */
   font: Acme;
 }
 .mod li{
@@ -417,7 +417,7 @@ ul li{
   font-weight: bold;
 }
 img{
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 @media only screen and (max-width: 1300px) {
   #courses {
