@@ -9,9 +9,9 @@ body {
 
 .logo{
 	float:left;
-	/* width: 688px; */
-	/* height: 190px; */
-	padding-left:20px;
+	width: 688px;
+    height: 190px;
+    padding-left:20px;
 }
 
 .warpper {
@@ -24,7 +24,7 @@ body {
 	/* fallback for old browsers */
 
 	/* Chrome 10-25, Safari 5.1-6 */
-	/* background: linear-gradient(to right, #c5f212, #e29200, #b49a3a); */
+	background: linear-gradient(to right, #c5f212, #e29200, #b49a3a);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	content-visibility: auto;
 	background-attachment: fixed;
