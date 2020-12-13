@@ -17,8 +17,8 @@
 
     <section id="header">
         <div class="header container" style="background-color:yellow;">
-            <div class="logo">
-                <img src="./img/web/ntslogopng.png" alt="Logo">
+            <div class="logo" >
+                <img src="./img/web/ntslogopng.png" alt="Logo" >
             </div>
             <div class="nav-bar">
 
@@ -38,11 +38,9 @@
                     <ul>
                         <li><a style="font-size: 20px;" href="#home" data-after="Home"
                                 onclick="topFunction()"><b>Home</b></a></li>
-                        <li><a style="font-size: 20px;" href="#about" data-after="About"><b>About</b></a></li>
-                        <li><a style="font-size: 20px;" href="departments.php"
-                                data-after="Departments"><b>Departments</b></a></li>
-                        <li><a style="font-size: 20px;" href="staff_members.php" data-after="Staff Members"><b>Staff
-                                    Members</b></a></li>
+                        <li><a style="font-size: 20px;" href="#about" data-after="About"><b>About</b></a></li>                   
+                        <li><a style="font-size: 20px;" href="departments.php" data-after="Departments"><b>Departments</b></a></li>
+                        <li><a style="font-size: 20px;" href="staff_members.php" data-after="Staff Members"><b>Staff Members</b></a></li>
                         <li><a style="font-size: 20px;" href="gallery.php" data-after="Gallery"><b>Gallery</b></a></li>
                         <li><a style="font-size: 20px;" href="#contact" data-after="Contact"><b>Contact</b></a></li>
                         <li><a style="font-size: 20px;" href="login.php" data-after="Login"><b>Login</b></a></li>
@@ -55,7 +53,7 @@
         <div class="slideshow-container" style="padding-top:16%;background:#ffffcc;">
             <br>
             <center>
-                <h3 style="font-size: 1.8rem;">SERVE TO BE PREFECT. PERFECT TO BE SERVE</h3>
+                <h3>SERVE TO BE PREFECT. PERFECT TO BE SERVE</h3>
             </center>
             <div class="mySlides fade">
                 <div class="numbertext">1 / 2</div>

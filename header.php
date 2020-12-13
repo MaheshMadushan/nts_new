@@ -14,7 +14,8 @@
 <body>
     <div class="nts-text">
         <div>
-            <a href="index.php"><img class="logo" src="./img/logo-highres.png" alt="logo"></a>
+        <a href="index.php"><img class="logo" src="./img/logo-highres.png" alt="logo"></a>
+        <a href="index.php"><img class="logo-lowres" src="./img/logo-highres.png" alt="logo"></a>
 
         </div>
         <div style="flex-grow: 8;overflow: hidden;height: 108px;">
@@ -44,8 +45,8 @@
             <img class="nts-text-image" src="./img/NTS-text.png">
         </div>
         <div>
-            <a href="profiles.php"><img class="logo-pp profile-pic" src="./img/logo-highres.png" alt="profile-picture"
-                    id="profile-pic" style="border-radius: 100px;"></a>
+            <a href="profiles.php"><img class="logo-pp profile-pic" src="./img/logo-highres.png" alt="profile-picture" id="profile-pic"
+                    style="border-radius: 100px;"></a>
         </div>
 
     </div>

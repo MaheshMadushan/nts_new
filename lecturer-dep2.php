@@ -7,7 +7,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard</title>
+    <title>Side Navigation Bar</title>
     <link rel="stylesheet" type="text/css" href="css/user-page.css">
     <link rel="stylesheet" href="./css/student.css">
     <meta charset="UTF-8">
