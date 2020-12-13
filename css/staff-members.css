@@ -4,13 +4,18 @@
 
 }
 
+.likes {
+    display: flex;
+    flex-direction: row;
+}
+
 .clearfix {
 	overflow: auto;
 }
 
 .wrapper{
 	margin: 0 auto;
-	background: #abf533f5;
+	/* background: #abf533f5; */
 }
 
 .photo{
@@ -28,15 +33,16 @@
 	padding: 0px 50px 0px 20px;
 	float: right;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
 }
 
 .tiles{
 	padding: 50px 20px;
-	margin-top: 175px;
+	margin-top: 141px;
 }
 
 .tile {
-	background-image: linear-gradient(to bottom right, #cccc00, #ffff80);
+	background: #ffffcc;
 	width: 850px;
 	align-self: center;
 	/* background: #ffff80; */
@@ -44,6 +50,7 @@
 	display: flow-root;
 	margin: 0 auto;
 	padding: 50px 30px;
+	box-shadow: 0px 0px 18px 0 #0000002c;
 }
 
 .post{
@@ -53,8 +60,9 @@
 	border-radius: 8px;
 	text-align: center;
 	padding: 5px 150px;
-	font-size: 1.10rem;
+	font-size: 2rem;
 	font-weight: bold;
+	width: 100%;
 }
 
 .name{
@@ -108,12 +116,105 @@
 
 
 ul li{
-  padding-top: 20px;
-  font-weight: bold;
+  /* padding-top: 20px; */
+  /* font-weight: bold; */
   font: Acme;
-  padding-bottom: 20px;
-  padding-left: 0px;
-  padding-right: 30px;
+  /* padding-bottom: 20px; */
+  /* padding-left: 0px; */
+  /* padding-right: 30px; */
 }
 
 
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap');
+$background: #fffffb;
+$accent: #ff6b6c;
+$otherAccent: #ffc145;
+$darkBackground: #5b5f97;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  font-family: "Roboto", arial, sans-serif;
+  color: #222;
+}
+#login-container {
+  height: 519px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 5px;
+  background: $background;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  
+}
+.profile-img {
+  height: 100px;
+  width: 100px;
+  background: url('https://images.unsplash.com/photo-1504933350103-e840ede978d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+  h1 {
+    font-family: 'Sriracha', arial, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  color: $otherAccent;
+  }
+  .description{
+  margin-bottom: 20px;
+  }
+  
+  
+  footer {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $darkBackground;
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  padding: 0 20px;
+  margin-left: -20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+  }
+  
+
+@-webkit-keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+  // 100% {
+  //   background-position: 0% 50%;
+  // }
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+  // 100% {
+  //   background-position: 0% 50%;
+  // }
+}

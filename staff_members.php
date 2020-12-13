@@ -3,11 +3,14 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Staff Members</title>
-	<link rel="stylesheet" type="text/css" href="css/staff-members.css">
+    <meta charset="UTF-8">
+    <title>Staff Members</title>
+    <link rel="stylesheet" type="text/css" href="css/staff-members.css">
     <link rel="stylesheet" href="./css/front-style.css">
+    <link rel="stylesheet" href="css/frontPage.css">
+    <link rel="stylesheet" href="css/frontpage-responsive.css">
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
 </head>
+
 <body>
     <?php if(isset($_SESSION['first_name'])){
         echo '<div class="logger">Welcome ';
@@ -29,9 +33,8 @@
     } ?>
     <section id="header">
         <div class="header container" style="background-color:yellow;">
-            <div class="logo" style="float:left;width: 420px;
-    height: 211px;padding-left:20px;">
-                <img src="./img/web/ntslogopng.png" alt="Logo" style="width:50%;">
+            <div class="logo">
+                <img src="./img/web/ntslogopng.png" alt="Logo">
             </div>
             <div class="nav-bar">
 
@@ -49,12 +52,15 @@
                         <div class="bar"></div>
                     </div>
                     <ul>
-                        <li><a style="font-size: 20px;" href="index.php" data-after="Home" onclick="topFunction()"><b>Home</b></a></li>
-                        <li><a style="font-size: 20px;" href="index.php#about" data-after="About"><b>About</b></a></li>                 
-                        <li><a style="font-size: 20px;" href="departments.php" data-after="Departments"><b>Departments</b></a></li>
+                        <li><a style="font-size: 20px;" href="index.php" data-after="Home"
+                                onclick="topFunction()"><b>Home</b></a></li>
+                        <li><a style="font-size: 20px;" href="index.php#about" data-after="About"><b>About</b></a></li>
+                        <li><a style="font-size: 20px;" href="departments.php"
+                                data-after="Departments"><b>Departments</b></a></li>
                         <li><a style="font-size: 20px;" href="" data-after="Staff Members"><b>Staff Members</b></a>
                         <li><a style="font-size: 20px;" href="gallery.php" data-after="Gallery"><b>Gallery</b></a></li>
-                        <li><a style="font-size: 20px;" href="index.php#contact" data-after="Contact"><b>Contact</b></a></li>
+                        <li><a style="font-size: 20px;" href="index.php#contact" data-after="Contact"><b>Contact</b></a>
+                        </li>
                         <li><a style="font-size: 20px;" href="login.php" data-after="Login"><b>Login</b></a></li>
                     </ul>
                 </div>
@@ -62,18 +68,19 @@
         </div>
     </section>
     <div class="wrapper">
-    <?php if(isset($_SESSION['first_name'])){
+        <?php if(isset($_SESSION['first_name'])){
         echo '<div class="logger">Welcome ';
         echo $_SESSION["first_name"];
         echo '!&nbsp <a href="Service/logout.php">Log Out</a><span id="index-no" style="display: none;">';
         echo $_SESSION["index_no"];
         echo '</span></div>';
     } ?>
-    <div class="tiles">
-			 <?php echo $user_list; ?>
-    </div> <!-- tiles -->
+        <div class="tiles">
+            <?php echo $user_list; ?>
+        </div> <!-- tiles -->
     </div> <!-- wrapper -->
 
-    <script src="js/frontPage.js"></script> 
+    <script src="js/frontPage.js"></script>
 </body>
+
 </html>
