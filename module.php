@@ -15,11 +15,9 @@ if (strlen($_SESSION['index_no']) != 4) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/module.css" type="text/css">
     <link rel="stylesheet" href="./css/notificationbar.css">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <link rel="stylesheet" href="./style/style-header.css">
@@ -27,8 +25,7 @@ if (strlen($_SESSION['index_no']) != 4) {
 </head>
 
 <body>
-    <div class="logger" style="float: right;padding-right: 5px;">Welcome <?php echo $_SESSION['first_name'] ?>!&nbsp <a
-            href="logout.php">Log
+    <div class="logger" style="float: right;padding-right: 5px;">Welcome <?php echo $_SESSION['first_name'] ?>!&nbsp <a href="logout.php">Log
             Out</a><span id="index-no" style="display: none;"><?php echo $_SESSION['index_no']; ?></span> </div>
     <br>
 
@@ -52,8 +49,7 @@ if (strlen($_SESSION['index_no']) != 4) {
                         } else if (strlen($_SESSION['index_no']) == 7) {
                             echo "Model/student-db.php";
                         } ?>><i class="fas fa-home"></i>Dashboard</a></li>
-            <li><a href="notifications.php"><i id="icon" class="far fa-bell"></i><span
-                        id="notify"></span>Notifications</a></li>
+            <li><a href="notifications.php"><i id = "icon" class="far fa-bell"></i><span id="notify"></span>Notifications</a></li>
             <li><a href="profiles.php"><i class="fas fa-user"></i>Profile</a></li>
             <li><a href="exam_timetables.php"><i class="fas fa-table"></i>Exams</a></li>
             <li><a href="results_nav.php"><i class="fas fa-poll"></i>Results</a></li>
@@ -129,7 +125,7 @@ if (strlen($_SESSION['index_no']) != 4) {
     </div>
     <!-- confirmation modal for deletefile -->
     <div id="id01" class="confirm-modal">
-        <!--         <span onclick="document.getElementById('id01').style.display='none';" class="close-confirm-modal"
+<!--         <span onclick="document.getElementById('id01').style.display='none';" class="close-confirm-modal"
             title="Close Modal">×</span> -->
         <form class="confirm-modal-content" action="/action_page.php">
             <div class="container">
@@ -160,8 +156,8 @@ if (strlen($_SESSION['index_no']) != 4) {
         <!-- Modal content -->
         <div class="modal-content" id="modal-content">
             <div class="modal-header">
-                <span onclick="document.getElementById('fileUploadModal').style.display='none';"
-                    class="close-confirm-modal" title="Close Modal" style="">&times;</span>
+                <span onclick="document.getElementById('fileUploadModal').style.display='none';" class="close-confirm-modal"
+            title="Close Modal" style="">&times;</span>
                 <h2>Upload file (.pdf/.docx/.pptx)</h2>
             </div>
             <div class="modal-body">
@@ -195,8 +191,8 @@ if (strlen($_SESSION['index_no']) != 4) {
         <!-- Modal content -->
         <div class="modal-content">
             <div class="modal-header">
-                <span onclick="document.getElementById('fileUpdateModal').style.display='none';"
-                    class="close-confirm-modal" title="Close Modal">&times;</span>
+                <span onclick="document.getElementById('fileUpdateModal').style.display='none';" class="close-confirm-modal"
+            title="Close Modal">&times;</span>
                 <h2>Update file (.pdf/.docx/.pptx)</h2>
             </div>
             <div class="modal-body">

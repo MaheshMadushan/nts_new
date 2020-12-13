@@ -146,7 +146,6 @@ a {
   height: 50px;
   width: 50px;
   transition: background-color 0.5s;
-  outline: none;
 }
 
 .apply:hover {
@@ -223,7 +222,7 @@ a {
 @media only screen and (max-width: 900px) {
   #courses {
     grid-template-columns: auto;
-    padding: 20px;
+    /* padding: 1px; */
   }
 
   .wrapper {

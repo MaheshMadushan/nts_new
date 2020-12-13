@@ -9,12 +9,7 @@ body {
     background-size: cover;
     background-position: center;
 }
-*{
-font-family: 'Work Sans', sans-serif;
-text-decoration: none;
-}
 
-}
 body {
     box-sizing: border-box;
 }
@@ -35,9 +30,10 @@ td {
 }
 
 * {
+    font-family: 'Work Sans', sans-serif;
 }
 
-.header {position: sticky;top: 0px;z-index: 100;/* height: 80px; */width: 100%;}
+.header {position: sticky;top: 0px;z-index: 100;}
 
 /* The Modal (background) */
 .modal {
@@ -45,7 +41,7 @@ td {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 999;
+    z-index: 1;
     /* Sit on top */
     padding-top: 100px;
     /* Location of the box */
@@ -283,43 +279,30 @@ hr {
 #Upload {
 
     /* Hidden by default */
-
-display: block;
-
-position: fixed;
+display: block;
+position: fixed;
     /* Fixed/sticky position */
-
-bottom: 20px;
+bottom: 20px;
     /* Place the button at the bottom of the page */
-
-right: 30px;
+right: 30px;
     /* Place the button 30px from the right */
-
-z-index: 99;
+z-index: 99;
     /* Make sure it does not overlap */
-
-border: none;
+border: none;
     /* Remove borders */
-
-outline: none;
+outline: none;
     /* Remove outline */
-
-background-color: #060848;
+background-color: #060848;
     /* Set a background color */
-
-color: white;
+color: white;
     /* Text color */
-
-cursor: pointer;
+cursor: pointer;
     /* Add a mouse pointer on hover */
-
-padding: 15px;
+padding: 15px;
     /* Some padding */
-
-border-radius: 10px;
+border-radius: 10px;
     /* Rounded corners */
-
-font-size: 18px;
+font-size: 18px;
     /* Increase font size */
 }
 
@@ -551,9 +534,6 @@ footer {
 }
 
 
-.navactive{
-    display: none;
-}
 
 
 
@@ -633,7 +613,7 @@ footer {
         display: block;
         position: sticky;
         position: -webkit-sticky;
-        top: 140px;
+        top: 100px;
         height: 204px;
         animation-name: navbar;
         animation-duration: 500ms;
@@ -684,7 +664,7 @@ footer {
         /* box-shadow: 10px 10px 8px #888888; */
         /* opacity: 3.9; */
         /* backdrop-filter: blur(50px); */
-        background-color: #000000;
+        background-color: #f3cd17;
         border-radius: 15px;
         position: sticky;
         top: 0px;
@@ -693,14 +673,13 @@ footer {
     .navactive ul li a {
         width: 100%;
         text-decoration: none;
-        color: #bfb7b7;
+        color: #050506;
         font-weight: 900;
-        font-size: 20px;
     }
 
     .navactive ul li a i {
         text-decoration: none;
-        color: aliceblue;
+        color: #161619;
         float: left;
     }
 
@@ -716,7 +695,7 @@ footer {
         padding-left: 10px;
         position: sticky;
         position: -webkit-sticky;
-        top: 88px;
+        top: 53px;
         width: 97px;
         height: 47px;
         /* backdrop-filter: blur(50px); */
@@ -743,7 +722,6 @@ footer {
         margin-left: 20px;
         min-height: 444px;
         padding-bottom: 125px;
-        margin-top: 51px;
     }
 
     #name {

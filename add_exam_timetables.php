@@ -54,7 +54,7 @@
 		<center><h1>Exam Timetables</h1></center>
         
 		
-		<h1 style="padding-left:4%;">First Year-Batch A</h1>
+		<h1 style="padding-left:8%;">First Year-Batch A</h1>
 		<div class="add" style="text-align:right;"><a href="add-timeTable-rowY1.php"><b>Add Timetable row</b></a> </div>
 <div class="table-responsive" >
 <table class="masterlist">
@@ -71,7 +71,7 @@
 </table>
 </div>
 <br><br>
-<h1 style="padding-left:4%;">First Year-Batch B</h1>
+<h1 style="padding-left:8%;">First Year-Batch B</h1>
 		<div class="add" style="text-align:right;"><a href="add-timetable-rowY1B.php"><b>Add Timetable row</b></a> </div>
 <div class="table-responsive" >
 <table class="masterlist">
@@ -88,7 +88,7 @@
 </table>
 </div>
 <br><br>
-<h1 style="padding-left:4%;">Second Year-Batch A</h1>
+<h1 style="padding-left:8%;">Second Year-Batch A</h1>
 <div class="add" style="text-align:right;"><span><a href="add-timeTable-rowY2.php"><b>Add Timetable row</b></a></span></div>
 <div class="table-responsive" >
 <table class="masterlist">
@@ -105,7 +105,7 @@
 </table>
 </div>
 <br><br>
-<h1 style="padding-left:4%;">Second Year-Batch B</h1>
+<h1 style="padding-left:8%;">Second Year-Batch B</h1>
 		<div class="add" style="text-align:right;"><a href="add-timetable-rowY2B.php"><b>Add Timetable row</b></a> </div>
 <div class="table-responsive" >
 <table class="masterlist">
@@ -122,7 +122,7 @@
 </table>
 </div>
 <br><br>
-<h1 style="padding-left:4%;">Third Year-Batch A</h1>
+<h1 style="padding-left:8%;">Third Year-Batch A</h1>
 <div class="add" style="text-align:right;"><a href="add-timeTable-rowY3.php"><b>Add Timetable row</b></a> </div>
 <div class="table-responsive" >
 <table class="masterlist">
@@ -139,7 +139,7 @@
 </table>
 </div>
 <br><br>
-<h1 style="padding-left:4%;">Third Year-Batch B</h1>
+<h1 style="padding-left:8%;">Third Year-Batch B</h1>
 		<div class="add" style="text-align:right;"><a href="add-timetable-rowY3B.php"><b>Add Timetable row</b></a> </div>
 <div class="table-responsive" >
 <table class="masterlist">

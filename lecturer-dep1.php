@@ -7,7 +7,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard</title>
+    <title>Side Navigation Bar</title>
     <link rel="stylesheet" type="text/css" href="css/user-page.css">
     <link rel="stylesheet" href="./css/student.css">
     <meta charset="UTF-8">
@@ -286,11 +286,9 @@
                 "></i></span>
             <ul>
                 <li><a href="#"><i class="fas fa-home"></i>Dashboard</a></li>
-                <li><a href="notifications.php"><i id="icon" class="far fa-bell"></i><span
-                            id="notify"></span>Notifications</a></li>
+                <li><a href="notifications.php"><i id = "icon" class="far fa-bell"></i><span id="notify"></span>Notifications</a></li>
                 <li><a href="lecturer-profile.php"><i class="fas fa-user"></i>Profile</a></li>
-                <li><a href="add_exam_timetables.php" id="timetable"><i class="fas fa-table"></i>Exam Timetables</a>
-                </li>
+                <li><a href="add_exam_timetables.php" id="timetable"><i class="fas fa-table"></i>Exam Timetables</a></li>
                 <li><a href="go-to-results.php"><i class="fas fa-poll"></i>Results</a></li>
                 <li><a href="feedback.php"><i class="fas fa-comment-dots"></i>Feedback</a></li>
             </ul>
