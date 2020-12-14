@@ -53,7 +53,7 @@ $(document).ready(function () {
 					success: function (data) {
 						// change name,NIC,email in html to updated info
 						console.log(data);
-						$('#name-html').html(data['first_name']);
+						$('#name-html').html(data['first_name']+' '+data['last_name']);
 						$('#NIC-html').html(data['NIC']);
 						$('#email-html').html(data['email']);
 						$('#id-html').html(UserSessionName);
