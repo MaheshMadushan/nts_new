@@ -116,16 +116,15 @@ i {
 }
 
 #courses {
-  display: grid;
+  display: ruby-text;
   background-color: rgb(176 170 224 / 0%);
   border-bottom: 1px solid black;
-  /* display: grid; */
+  display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   padding: 50px;
   overflow: auto;
-  font-size: 20px;
 }
 
 
@@ -204,7 +203,7 @@ a {
 }
 
 .fix {
-  background: #9ea1a28f;
+  background: #e4e4e4;
   border-radius: 15px;
   min-height: 190px;
   display: flex;
