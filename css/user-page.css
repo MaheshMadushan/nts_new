@@ -188,13 +188,14 @@ a {
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
+  font-size: 20px;
 }
 
 .para {
   overflow: auto;
   background: #80008000;
   padding: 5px;
-  font-size: 10px;
+  font-size: 15px;
   width: 100%;
 }
 
@@ -211,6 +212,7 @@ a {
   justify-content: space-around;
   overflow: hidden;
   color: #040807;
+  font-size: medium;
 }
 
 #arrow-icon {
