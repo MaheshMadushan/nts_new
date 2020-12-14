@@ -7,6 +7,7 @@
     <title>Photos</title>
     <link rel="stylesheet" href="css/gal.css">
     <link rel="stylesheet" href="css/frontPage.css">
+    <link rel="stylesheet" href="css/frontpage-responsive.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.js"
@@ -24,7 +25,6 @@
             <div class="nav-bar">
 
                 <div class="brand">
-                    <!-- <a href="#home"><h1><span>N</span>urses <span>T</span>raining <span>S</span>chool </h1></a> -->
                     <br>
                     <div class="name">
 
@@ -39,12 +39,15 @@
                     <ul>
                         <li><a style="font-size: 20px;" href="index.php" data-after="Home"
                                 onclick="topFunction()"><b>Home</b></a></li>
-                        <li><a style="font-size: 20px;" href="index.php#about" data-after="About"><b>About</b></a></li>                   
-                        <li><a style="font-size: 20px;" href="departments.php" data-after="Departments"><b>Departments</b></a>
+                        <li><a style="font-size: 20px;" href="index.php#about" data-after="About"><b>About</b></a></li>
+                        <li><a style="font-size: 20px;" href="departments.php"
+                                data-after="Departments"><b>Departments</b></a>
                         </li>
-                        <li><a style="font-size: 20px;" href="staff_members.php" data-after="Staff Members"><b>Staff Members</b></a></li> 
+                        <li><a style="font-size: 20px;" href="staff_members.php" data-after="Staff Members"><b>Staff
+                                    Members</b></a></li>
                         <li><a style="font-size: 20px;" href="gallery.php" data-after="Gallery"><b>Gallery</b></a></li>
-                        <li><a style="font-size: 20px;" href="index.php#contact" data-after="Contact"><b>Contact</b></a></li>
+                        <li><a style="font-size: 20px;" href="index.php#contact" data-after="Contact"><b>Contact</b></a>
+                        </li>
                         <li><a style="font-size: 20px;" href="login.php" data-after="Login"><b>Login</b></a></li>
                     </ul>
                 </div>
@@ -85,11 +88,7 @@
         } catch (\Throwable $th) {
             echo $th->getmessage();
         }        ?>
-        <!-- <div class='photo' id='' select="loadPhoto()">
-            <a href='gallery/'>
-                <img id="test" src='agesg' data-src=" gallery/img/bg-999.jpg">
-            </a>
-        </div> -->
+
     </div>
 </body>
 <script src="js/loadingPhotos.js"></script>

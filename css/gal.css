@@ -7,9 +7,9 @@ body {
 }
 .logo{
     float:left;
-    width: 688px;
-    height: 190px;
-    padding-left:20px;
+    /* width: 688px; */
+    /* height: 190px; */
+    /* padding-left:20px; */
 }
 @media screen and (max-width: 1337px) {
     .logo{
